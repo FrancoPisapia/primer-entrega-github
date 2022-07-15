@@ -11,6 +11,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap" rel="stylesheet">
 
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Work+Sans:wght@200&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
         <link rel="stylesheet" href="../css/style.css">
     <title>Contacto</title>
 </head>
@@ -32,43 +34,72 @@
             </nav>
         </header>
         <main>
+
             <div class="contacto-contenedor1">
-                <h2  class="positionSticky">Contacto</h2>
+                <h2  class="positionSticky contacto">Contacto</h2>
 
-                <div>
-                    <h3>Área de obras civiles y estructuras</h3>
-                    <!-- type="none" es obsoleto segun W3C, por lo que lo cambio en CSS -->
-                    <ul>
-                        <li>Ing. xxxxxx</li>
-                        <li>obrasciviles@frague.com.ar</li>
-                    </ul>
+                <div class="contacto-flex ">
 
-                </div>
+                    <div class="img-obras-civiles wow animate__animated animate__bounceInLeft">
 
-                
-                <div>
-                    <h3>Área de obras viales</h3>
-                    <!-- type="none" es obsoleto segun W3C, por lo que lo cambio en CSS -->
-                    <ul>
-                        <li>Ing. xxxxxx</li>
-                        <li>obrasviales@frague.com.ar</li>
-                    </ul>
+                        <img src="../Imagenes/Ing-Pisapia.png" alt="ing-pisapia">
+
+                    </div>
+
+                    <div class="obras-civiles">
+                        <h3>Área de obras civiles y estructuras</h3>
+                        <ul>
+                            <li>Ing. xxxxxx</li>
+                            <li>obrasciviles@frague.com.ar</li>
+                        </ul>
+
+                    </div>
 
                 </div>
 
-                <div>
-                    <h3>Área de ingeniería hídrica</h3>
-                    <!-- type="none" es obsoleto segun W3C, por lo que lo cambio en CSS -->
-                    <ul >
-                        <li>Ing. xxxxxx</li>
-                        <li>obrashidricas@frague.com.ar</li>
-                    </ul>
+                <div class="contacto-flex">
+
+                    <div class="img-obras-viales wow animate__animated animate__bounceInLeft">
+
+                        <img src="../Imagenes/Ing-Pisapia.png" alt="ing-pisapia">
+
+                    </div>
+
+                    
+                    <div class="obras-viales ">
+                        <h3>Área de obras viales</h3>
+                        <!-- type="none" es obsoleto segun W3C, por lo que lo cambio en CSS -->
+                        <ul>
+                            <li>Ing. xxxxxx</li>
+                            <li>obrasviales@frague.com.ar</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <div class="contacto-flex ">
+
+                    <div class="img-obras-hidricas wow animate__animated animate__bounceInLeft ">
+
+                        <img src="../Imagenes/Ing-Pisapia.png" alt="ing-pisapia">
+
+                    </div>
+
+                    <div class="obras-hidricas">
+                        <h3>Área de ingeniería hídrica</h3>
+                        <!-- type="none" es obsoleto segun W3C, por lo que lo cambio en CSS -->
+                        <ul >
+                            <li>Ing. xxxxxx</li>
+                            <li>obrashidricas@frague.com.ar</li>
+                        </ul>
+
+                    </div>
 
                 </div>
 
             </div>
         </main>
-
         <footer id="pie">
             
             <div class="contacto">
@@ -91,11 +122,15 @@
                 </ul>
             </div>
 
-    </footer>
-    <span class="material-symbols-outlined"><a href="#ir-arriba">
+        </footer>
+        <span class="material-symbols-outlined"><a href="#ir-arriba">
         arrow_upward</a>
-    </span>
-</div>
+        </span>
+    </div>
 
-</body>
+
+    <script src="https://cdn.boomcdn.com/libs/wow-js/1.3.0/wow.min.js"></script>
+    <script>
+        new WOW().init();
+        </script>
 </html>
