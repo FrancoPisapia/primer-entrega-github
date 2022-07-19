@@ -538,6 +538,20 @@ input:focus {
   background-image: url(../Imagenes/metrobus.jpg);
   background-size: cover;
 }
+
+.adelante5 {
+  height: 100%;
+  width: 100%;
+  background-image: url(../Imagenes/parque-eolico.png);
+  background-size: cover;
+}
+
+.adelante6 {
+  height: 100%;
+  width: 100%;
+  background-image: url(../Imagenes/Planta-potabiliadora.png);
+  background-size: cover;
+}
 /* .trabajos-realizados-contenedor2 {
   position: relative;
   top: 300px;
