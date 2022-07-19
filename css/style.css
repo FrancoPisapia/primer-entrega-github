@@ -32,7 +32,7 @@ header {
 
   background-color: #3c3c3c;
   margin: -20px -8px 0 -8px;
-  width: auto;
+  width: 110%;
 }
 
 h1 {
@@ -107,6 +107,8 @@ a {
 
     display: block;
     flex-direction: row;
+
+    width: auto;
   }
 
   .logo img {
