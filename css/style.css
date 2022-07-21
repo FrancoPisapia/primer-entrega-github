@@ -48,10 +48,18 @@ header {
   color: rgba(0, 0, 0, 0.55);
   border-color: #ffffff;
 }
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
 h1 {
   color: #ffffff;
-  margin-left: 5px;
+  margin-left: 20px;
   font-family: "Raleway", sans-serif;
+  text-align: center;
 }
 
 .logo img {
@@ -96,6 +104,16 @@ a {
   transition: 0.1s ease;
 }
 
+.navbar > .container,
+.navbar > .container-fluid,
+.navbar > .container-lg,
+.navbar > .container-md,
+.navbar > .container-sm,
+.navbar > .container-xl,
+.navbar > .container-xxl {
+  justify-content: center;
+}
+
 /****Fin Header Mobile****/
 
 /****Inicio Header Desktop****/
@@ -112,8 +130,17 @@ a {
       "main main main"
       "footer footer footer";
 
-    grid-template-rows: 100px auto 160px;
+    grid-template-rows: 130px auto 160px;
   }
+
+  h1 {
+    text-align: left;
+  }
+
+  /* .navbar-nav {
+    display: flex;
+    justify-content: space-evenly;
+  } */
 
   header {
     grid-area: header;
@@ -126,7 +153,6 @@ a {
 
   .logo img {
     position: relative;
-    top: -10px;
     width: 80px;
     height: 60px;
   }
@@ -161,7 +187,7 @@ main {
 
 .positionSticky {
   position: sticky;
-  top: 390px;
+  top: 210px;
   height: 40px;
 
   background-color: #a5bab6;
@@ -189,7 +215,7 @@ main {
   margin-bottom: 20px;
 }
 
-.border {
+.border1 {
   border-bottom: 3px solid rgba(60, 60, 60, 0.5);
   grid-area: border;
 }
@@ -209,8 +235,8 @@ main {
 
 .vision {
   position: relative;
-  bottom: 10px;
-  height: 150px;
+  bottom: -20px;
+  height: 170px;
 
   margin: 0px 10px 160px 0px;
   width: 60%;
