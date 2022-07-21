@@ -35,6 +35,19 @@ header {
   width: 110%;
 }
 
+.bg-light {
+  --bs-bg-opacity: 0;
+  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.navbar-light .navbar-brand {
+  color: #ffffff;
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.55);
+  border-color: #ffffff;
+}
 h1 {
   color: #ffffff;
   margin-left: 5px;
@@ -708,7 +721,7 @@ footer {
   font-size: 15px;
 }
 
-span {
+.ir-arriba {
   position: fixed;
   bottom: 7px;
   right: 5px;
