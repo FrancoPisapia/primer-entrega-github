@@ -34,10 +34,10 @@ header {
   margin: -20px -8px 0 -8px;
   width: 110%;
 }
-
+/* Ver BIEN */
 .bg-light {
   --bs-bg-opacity: 0;
-  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #3c3c3c !important;
 }
 
 .navbar-light .navbar-brand {
