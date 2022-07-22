@@ -37,7 +37,7 @@ header {
 /* Ver BIEN */
 .bg-light {
   --bs-bg-opacity: 0;
-  background-color: #3c3c3c !important;
+  background-color: #3c3c3c;
 }
 
 .navbar-light .navbar-brand {
