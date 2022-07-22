@@ -209,6 +209,11 @@ main {
   width: 100%;
 }
 
+.carousel-inner {
+  width: 40%;
+  margin-left: 30%;
+}
+
 .clientes--positionSticky {
   position: sticky;
   top: 150px;
@@ -708,7 +713,7 @@ footer {
   font-size: 15px;
 }
 
-span {
+/* span {
   position: fixed;
   bottom: 7px;
   right: 5px;
@@ -716,7 +721,7 @@ span {
 
   color: black;
   background-color: #636363;
-}
+} */
 
 .linksUtiles {
   list-style-image: url(../Imagenes/link-svgrepo-com.svg);
